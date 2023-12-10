@@ -673,8 +673,11 @@ video {
   margin-top: 1rem;
 }
 
-.mb-5{
-  margin-bottom: 1.25rem;
+.line-clamp-3{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 .block{
@@ -957,11 +960,6 @@ video {
   line-height: 1rem;
 }
 
-.text-8xl{
-  font-size: 6rem;
-  line-height: 1;
-}
-
 .font-bold{
   font-weight: 700;
 }
@@ -1128,11 +1126,6 @@ video {
   .sm\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .sm\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .sm\:text-6xl{
