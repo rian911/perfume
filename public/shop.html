@@ -64,9 +64,96 @@
 
     <main>
       <section class="text-gray-600 body-font bg-pm1">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-wrap -m-4">
-            <div class="lg:w-1/4 bg-pm2 md:w-1/2 p-4 w-full">
+        <div class="container flex justify-between px-5 py-24 mx-auto">
+          <form>
+            <div class="mb-4">
+              <label class="block text-gray-700 text-sm font-bold mb-2">
+                Select Fragrance Types:
+              </label>
+
+              <!-- Checkbox Options -->
+              <div class="grid grid-cols-2 gap-4">
+                <!-- Floral -->
+                <label class="flex items-center">
+                  <input
+                    type="checkbox"
+                    class="form-checkbox text-indigo-600"
+                    name="fragrance[]"
+                    value="floral"
+                  />
+                  <span class="ml-2 text-gray-700">Floral</span>
+                </label>
+
+                <!-- Oriental -->
+                <label class="flex items-center">
+                  <input
+                    type="checkbox"
+                    class="form-checkbox text-indigo-600"
+                    name="fragrance[]"
+                    value="oriental"
+                  />
+                  <span class="ml-2 text-gray-700">Oriental</span>
+                </label>
+
+                <!-- Woody -->
+                <label class="flex items-center">
+                  <input
+                    type="checkbox"
+                    class="form-checkbox text-indigo-600"
+                    name="fragrance[]"
+                    value="woody"
+                  />
+                  <span class="ml-2 text-gray-700">Woody</span>
+                </label>
+
+                <!-- Fresh -->
+                <label class="flex items-center">
+                  <input
+                    type="checkbox"
+                    class="form-checkbox text-indigo-600"
+                    name="fragrance[]"
+                    value="fresh"
+                  />
+                  <span class="ml-2 text-gray-700">Fresh</span>
+                </label>
+
+                <!-- Citrus -->
+                <label class="flex items-center">
+                  <input
+                    type="checkbox"
+                    class="form-checkbox text-indigo-600"
+                    name="fragrance[]"
+                    value="citrus"
+                  />
+                  <span class="ml-2 text-gray-700">Citrus</span>
+                </label>
+
+                <!-- Gourmand -->
+                <label class="flex items-center">
+                  <input
+                    type="checkbox"
+                    class="form-checkbox text-indigo-600"
+                    name="fragrance[]"
+                    value="gourmand"
+                  />
+                  <span class="ml-2 text-gray-700">Gourmand</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="mt-4">
+              <button
+                type="submit"
+                class="px-4 py-2 bg-indigo-500 text-white rounded-md hover:bg-indigo-600"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+
+          <div class="flex flex-wrap justify-center w-4/5">
+            <div class="lg:w-1/5 bg-pm2 md:w-1/2 p-4 m-1 rounded-xl w-full">
               <a class="block relative h-48 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -86,7 +173,7 @@
                 <p class="mt-1">$16.00</p>
               </div>
             </div>
-            <div class="lg:w-1/4 bg-pm2 md:w-1/2 p-4 w-full">
+            <div class="lg:w-1/5 bg-pm2 md:w-1/2 p-4 m-1 rounded-xl w-full">
               <a class="block relative h-48 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -106,7 +193,7 @@
                 <p class="mt-1">$21.15</p>
               </div>
             </div>
-            <div class="lg:w-1/4 bg-pm2 md:w-1/2 p-4 w-full">
+            <div class="lg:w-1/5 bg-pm2 md:w-1/2 p-4 m-1 rounded-xl w-full">
               <a class="block relative h-48 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -126,7 +213,7 @@
                 <p class="mt-1">$12.00</p>
               </div>
             </div>
-            <div class="lg:w-1/4 bg-pm2 md:w-1/2 p-4 w-full">
+            <div class="lg:w-1/5 bg-pm2 md:w-1/2 p-4 m-1 rounded-xl w-full">
               <a class="block relative h-48 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -146,7 +233,7 @@
                 <p class="mt-1">$18.40</p>
               </div>
             </div>
-            <div class="lg:w-1/4 bg-pm2 md:w-1/2 p-4 w-full">
+            <div class="lg:w-1/5 bg-pm2 md:w-1/2 p-4 m-1 rounded-xl w-full">
               <a class="block relative h-48 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -166,7 +253,7 @@
                 <p class="mt-1">$16.00</p>
               </div>
             </div>
-            <div class="lg:w-1/4 bg-pm2 md:w-1/2 p-4 w-full">
+            <div class="lg:w-1/5 bg-pm2 md:w-1/2 p-4 m-1 rounded-xl w-full">
               <a class="block relative h-48 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -186,7 +273,7 @@
                 <p class="mt-1">$21.15</p>
               </div>
             </div>
-            <div class="lg:w-1/4 bg-pm2 md:w-1/2 p-4 w-full">
+            <div class="lg:w-1/5 bg-pm2 md:w-1/2 p-4 m-1 rounded-xl w-full">
               <a class="block relative h-48 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -206,7 +293,7 @@
                 <p class="mt-1">$12.00</p>
               </div>
             </div>
-            <div class="lg:w-1/4 bg-pm2 md:w-1/2 p-4 w-full">
+            <div class="lg:w-1/5 bg-pm2 md:w-1/2 p-4 m-1 rounded-xl w-full">
               <a class="block relative h-48 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
