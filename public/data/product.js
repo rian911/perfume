@@ -28,6 +28,8 @@ export const product = [
     priceCents: 1090,
     keyword: ['sweet', 'rich', 'sport'],
     desc: 'Bold, mysterious blend of woody and oriental notes. Modern, confident, unforgettable.',
+    scent: ['image/icon-scent/coffe.png', 'image/icon-scent/Yellow flower.png'],
+    brand: 'Gucci',
   },
   {
     id: 'asdbsdfr',
@@ -40,6 +42,8 @@ export const product = [
     priceCents: 2090,
     keyword: ['sweet', 'calm', 'florist'],
     desc: 'Graceful floral symphony capturing elegance and femininity. Delicate, timeless, enchanting.Graceful floral symphony capturing elegance and femininity. Delicate, timeless, enchanting.Graceful floral symphony capturing elegance and femininity. Delicate, timeless, enchanting.',
+    scent: ['image/icon-scent/coffe.png', 'image/icon-scent/red flower.png'],
+    brand: 'Dior',
   },
   {
     id: 'lonuakieas',
@@ -52,6 +56,11 @@ export const product = [
     priceCents: 5090,
     keyword: ['sweet', 'rich', 'sport'],
     desc: 'Opulent elixir with rich, radiant notes. Luxurious, captivating, a true essence of sophistication.',
+    scent: [
+      'image/icon-scent/red flower.png',
+      'image/icon-scent/Yellow flower.png',
+    ],
+    brand: 'Sui',
   },
   {
     id: 'nvbhuhdke',
@@ -64,6 +73,8 @@ export const product = [
     priceCents: 1090,
     keyword: ['fresh', 'sweet', 'nature'],
     desc: 'Blissful fragrance embodying joy and serenity. Enchanting, soothing, uplifting experience.',
+    scent: ['image/icon-scent/coffe.png', 'image/icon-scent/orange.png'],
+    brand: 'El geto',
   },
   {
     id: 'komahhfeppw',
@@ -76,5 +87,7 @@ export const product = [
     priceCents: 9090,
     keyword: ['sweet', 'rich', 'sport'],
     desc: 'Captivating scent of blooming roses under moonlight. Elegant, romantic, perfect for enchanted evenings.',
+    scent: ['image/icon-scent/orange.png', 'image/icon-scent/red flower.png'],
+    brand: 'Esmeralda',
   },
 ];
