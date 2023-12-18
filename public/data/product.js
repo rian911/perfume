@@ -30,6 +30,7 @@ export const product = [
     desc: 'Bold, mysterious blend of woody and oriental notes. Modern, confident, unforgettable.',
     scent: ['image/icon-scent/coffe.png', 'image/icon-scent/Yellow flower.png'],
     brand: 'Gucci',
+    type: ['floral', 'oriental', 'woody'],
   },
   {
     id: 'asdbsdfr',
@@ -44,6 +45,7 @@ export const product = [
     desc: 'Graceful floral symphony capturing elegance and femininity. Delicate, timeless, enchanting.Graceful floral symphony capturing elegance and femininity. Delicate, timeless, enchanting.Graceful floral symphony capturing elegance and femininity. Delicate, timeless, enchanting.',
     scent: ['image/icon-scent/coffe.png', 'image/icon-scent/red flower.png'],
     brand: 'Dior',
+    type: ['citrus', 'gourmand'],
   },
   {
     id: 'lonuakieas',
@@ -60,7 +62,8 @@ export const product = [
       'image/icon-scent/red flower.png',
       'image/icon-scent/Yellow flower.png',
     ],
-    brand: 'Sui',
+    brand: 'Channel',
+    type: ['fresh', 'oriental', 'woody'],
   },
   {
     id: 'nvbhuhdke',
@@ -74,7 +77,8 @@ export const product = [
     keyword: ['fresh', 'sweet', 'nature'],
     desc: 'Blissful fragrance embodying joy and serenity. Enchanting, soothing, uplifting experience.',
     scent: ['image/icon-scent/coffe.png', 'image/icon-scent/orange.png'],
-    brand: 'El geto',
+    brand: 'Dior',
+    type: ['gourmand', 'woody'],
   },
   {
     id: 'komahhfeppw',
@@ -88,6 +92,7 @@ export const product = [
     keyword: ['sweet', 'rich', 'sport'],
     desc: 'Captivating scent of blooming roses under moonlight. Elegant, romantic, perfect for enchanted evenings.',
     scent: ['image/icon-scent/orange.png', 'image/icon-scent/red flower.png'],
-    brand: 'Esmeralda',
+    brand: 'Gucci',
+    type: ['citrus', 'oriental', 'woody'],
   },
 ];
