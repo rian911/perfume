@@ -29,8 +29,9 @@ export const product = [
     keyword: ['sweet', 'rich', 'sport'],
     desc: 'Bold, mysterious blend of woody and oriental notes. Modern, confident, unforgettable.',
     scent: ['image/icon-scent/coffe.png', 'image/icon-scent/Yellow flower.png'],
-    brand: 'Gucci',
+    brand: 'Jo Malone',
     type: ['floral', 'oriental', 'woody'],
+    gender: 'male',
   },
   {
     id: 'asdbsdfr',
@@ -45,7 +46,8 @@ export const product = [
     desc: 'Graceful floral symphony capturing elegance and femininity. Delicate, timeless, enchanting.Graceful floral symphony capturing elegance and femininity. Delicate, timeless, enchanting.Graceful floral symphony capturing elegance and femininity. Delicate, timeless, enchanting.',
     scent: ['image/icon-scent/coffe.png', 'image/icon-scent/red flower.png'],
     brand: 'Dior',
-    type: ['citrus', 'gourmand'],
+    type: ['citrus', 'gourmand', 'floral'],
+    gender: 'male',
   },
   {
     id: 'lonuakieas',
@@ -63,7 +65,8 @@ export const product = [
       'image/icon-scent/Yellow flower.png',
     ],
     brand: 'Channel',
-    type: ['fresh', 'oriental', 'woody'],
+    type: ['fresh', 'oriental', 'woody', 'floral'],
+    gender: 'female',
   },
   {
     id: 'nvbhuhdke',
@@ -77,8 +80,9 @@ export const product = [
     keyword: ['fresh', 'sweet', 'nature'],
     desc: 'Blissful fragrance embodying joy and serenity. Enchanting, soothing, uplifting experience.',
     scent: ['image/icon-scent/coffe.png', 'image/icon-scent/orange.png'],
-    brand: 'Dior',
+    brand: 'Tom Ford',
     type: ['gourmand', 'woody'],
+    gender: 'unisex',
   },
   {
     id: 'komahhfeppw',
@@ -93,6 +97,7 @@ export const product = [
     desc: 'Captivating scent of blooming roses under moonlight. Elegant, romantic, perfect for enchanted evenings.',
     scent: ['image/icon-scent/orange.png', 'image/icon-scent/red flower.png'],
     brand: 'Gucci',
-    type: ['citrus', 'oriental', 'woody'],
+    type: ['citrus', 'oriental', 'woody', 'floral'],
+    gender: 'unisex',
   },
 ];
