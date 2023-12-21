@@ -1,6 +1,7 @@
 import { product } from '../data/product.js';
 import { formatCurrency } from './utils/money.js';
 import { getSelectedFragrance, filterProducts } from './filter.js';
+import { addtoDetail, saveToDetail } from './detail.js';
 
 getSelectedFragrance();
 
@@ -52,33 +53,15 @@ export function updateDisplayedProduct() {
   document.querySelector('.js-shop').innerHTML = shopHTML;
 }
 
-document.addEventListener('click', function (event) {
-  const addToDetailClass = 'js-add-to-detail';
-  if (event.target.classList.contains(addToDetailClass)) {
-    // Get the product data from the clicked element
-    const productId = event.target.getAttribute('data-product-id');
-    const selectedProduct = product.find((product) => product.id === productId);
-
-    // Save the selected product data to local storage
-    localStorage.setItem('selectedProduct', JSON.stringify(selectedProduct));
-
-    // Redirect to detail.html
-    window.location.href = 'detail.html';
-  }
-});
-
-// Function to retrieve and display the selected product on detail.html
-export function displaySelectedProduct() {
-  const selectedProduct = JSON.parse(localStorage.getItem('selectedProduct'));
-
-  // Check if a product is selected
-  if (selectedProduct) {
-    // Update the HTML content on detail.html with the selected product data
-    document.querySelector('.title-font').textContent = selectedProduct.name;
-    document.querySelector('.text-gray-500').textContent =
-      selectedProduct.brand;
-    // Add code to update other elements with the selected product data
-  }
-}
-
 updateDisplayedProduct();
+// window.location.href = 'detail.html';
+
+document.querySelectorAll('.js-add-to-detail').forEach((button) => {
+  button.addEventListener('click', () => {
+    const { productId } = button.dataset;
+
+    addtoDetail(productId);
+    saveToDetail();
+    window.location.href = 'detail.html';
+  });
+});
