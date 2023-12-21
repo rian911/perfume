@@ -48,6 +48,7 @@ export function renderPageDetail() {
 
     const matchingProduct = getProduct(productId);
 
+    console.log(matchingProduct);
     detailsumHTML = `
     <div
       class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
@@ -130,7 +131,8 @@ export function renderPageDetail() {
     </div>
   `;
   });
-  // console.log(detailsumHTML);
-  // console.log(document.querySelector('.detail-main'));
+
   document.querySelector('.detail-main').innerHTML = detailsumHTML;
 }
+// renderPageDetail();
+localStorage.clear();
